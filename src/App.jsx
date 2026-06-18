@@ -4,6 +4,7 @@ import Hero from "./sections/Hero"
 import Navbar from "./sections/Navbar"
 import ReadyToWork from "./sections/.ReadyToWork.jsx"
 import ShowcaseTalents from "./sections/ShowcaseTalents"
+import CommonQuestions from "./sections/CommonQuestions.jsx"
 
 function App() {
 
@@ -15,7 +16,7 @@ function App() {
       <FeeFreeForever/>
       <ShowcaseTalents/>
       <ReadyToWork/>
-      
+      <CommonQuestions/>
     </div>
   )
 }
