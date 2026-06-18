@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 
 import PaypalIcon from "../assets/paypal-icon.png";
-import ActiveIcon from "../assets/active-icon.svg";
+import ActiveIcon from "../assets/active-Icon.svg";
 import FloatingDot from "../assets/blue-dot.png";
 import RemoteRecruitBadge from "../assets/rr-badge.svg";
 import SectionHeader from "../components/ui/SectionHeader";

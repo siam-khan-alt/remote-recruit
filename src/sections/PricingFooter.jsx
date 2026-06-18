@@ -4,11 +4,11 @@ import { motion } from "framer-motion";
 import FooterBg from "../assets/footer-bg.svg";
 import LogoImg from "../assets/logo.png";
 import LogoIcon from "../assets/rr-badge.svg";
-import PremiumIcon from "../assets/premium-icon.png";
+import PremiumIcon from "../assets/premium-Icon.png";
 
 // Feature icon
-import ActiveIcon from "../assets/active-icon.svg";
-import XIconSvg from "../assets/x-icon.svg";
+import ActiveIcon from "../assets/active-Icon.svg";
+import XIconSvg from "../assets/x-Icon.svg";
 import { socialLinks } from "../data/socials";
 import { freeFeatures, premiumFeatures } from "../data/features";
 
