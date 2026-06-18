@@ -14,8 +14,8 @@ function App() {
     <div className="relative w-full min-h-screen bg-white">
       <Navbar/>
       <Hero/>
-      <GlobalReach/>
-      <FeeFreeForever/>
+       <GlobalReach/>
+       <FeeFreeForever/>
       <ShowcaseTalents/>
       <ReadyToWork/>
       <CommonQuestions/>

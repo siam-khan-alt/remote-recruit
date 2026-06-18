@@ -17,7 +17,7 @@ export default function UserCard({
       whileInView={{ opacity: 1, x: 0 }}
       viewport={{ once: true }}
       transition={{ duration: 0.6, delay: delay }}
-      className={`absolute w-75 md:w-88 bg-white p-3 pr-8 rounded-full shadow-[14px_13px_20px_0px_rgba(135,129,245,0.11)] flex items-center gap-3 border border-[#F8FAFC] z-20 ${className}`}
+      className={`absolute w-64 md:w-88 bg-white p-3 pr-8 rounded-full shadow-[14px_13px_20px_0px_rgba(135,129,245,0.11)] flex items-center gap-3 border border-[#F8FAFC] z-20 ${className}`}
     >
       {/* avatar */}
       <div className={`w-[53px] h-[53px] rounded-full overflow-hidden flex items-center justify-center shrink-0 ${avatarBg} ${avatarBorder} ${avatarClass}`}>

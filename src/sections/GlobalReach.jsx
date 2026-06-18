@@ -19,7 +19,7 @@ export default function GlobalReach() {
         />
 
         {/* right  */}
-        <div className=" relative w-full max-w-[355px] md:w-[355px] h-[451px] md:h-full p-5 rounded-[34px] bg-white flex flex-col items-start shadow-[14px_41px_100px_0px_rgba(49,89,211,0.12)] ">
+        <div className=" relative w-full md:w-[355px] h-[451px] md:h-full p-5 rounded-[34px] bg-white flex flex-col items-start shadow-[14px_41px_100px_0px_rgba(49,89,211,0.12)] ">
           {/* Floating Dot */}
           <div className="absolute hidden md:flex  -left-4 w-[22px] h-[22px] z-10 animate-pulse">
             <img

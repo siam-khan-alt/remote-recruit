@@ -16,7 +16,7 @@ export default function ReadyToWork() {
           className="w-full h-full object-cover" 
         />
       </div>
-      <div className="absolute top-0 right-0 w-125 h-125 bg-[#52B4DA]/15 rounded-full blur-[120px] pointer-events-none z-1" />
+      <div className="absolute top-0 right-0 w-[250px] h-[250px] md:w-[500px] md:h-[500px] bg-[#52B4DA]/15 rounded-full blur-[120px] pointer-events-none z-1" />
 
       <div className="w-full flex md:flex-row flex-col gap-12 md:gap-16 lg:gap-24 items-end relative z-10 px-6 md:px-0 md:pr-12 lg:pr-24">
         {/* Left Side */}

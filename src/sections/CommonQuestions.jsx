@@ -4,7 +4,7 @@ import { faqData } from "../data/faqs";
 export default function CommonQuestions() {
 
   return (
-    <section className="w-full bg-white py-20 md:pt-37 md:pb-[213px] flex justify-center items-center">
+    <section className=" bg-white py-20 md:pt-37 md:pb-[213px] flex justify-center items-center">
       <div className="w-full max-w-260 mx-auto px-6 md:px-12 lg:px-0 flex flex-col items-start">
         
         {/* title */}
