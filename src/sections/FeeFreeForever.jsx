@@ -35,6 +35,7 @@ export default function FeeFreeForever() {
               src={FloatingDot}
               alt="Decorative Dot"
               className="w-full h-full object-contain"
+              
             />
           </div>
 

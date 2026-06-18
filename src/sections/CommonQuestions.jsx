@@ -1,20 +1,7 @@
 import { motion } from "framer-motion";
+import { faqData } from "../data/faqs";
 
 export default function CommonQuestions() {
-  const faqData = [
-    {
-      question: "Do I have to sign a long-term contract?",
-      answer: "ually beard single-origin coffee, twee 90's PBR Echo Park sartorial try-hard freegan Portland ennui. Selvage jean shorts 90's, Vice American Apparel try-hard food truck Shoreditch fap lomo Wes Anderson. Art party "
-    },
-    {
-      question: "Can I pay for a whole year?",
-      answer: "Actually beard single-origin coffee, twee 90's PBR Echo Park sartorial try-hard freegan Portland ennui. Selvage"
-    },
-    {
-      question: "What if I need help?",
-      answer: "Actually beard single-origin coffee, twee 90's PBR Echo Park sartorial try-hard freegan Portland ennui. Selvage jean shorts 90's, Vice American Apparel try-hard food truck Shoreditch fap lomo Wes Anderson. Art party "
-    }
-  ];
 
   return (
     <section className="w-full bg-white py-20 md:pt-37 md:pb- flex justify-center items-center">

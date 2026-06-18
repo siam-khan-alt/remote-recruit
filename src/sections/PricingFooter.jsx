@@ -9,14 +9,8 @@ import PremiumIcon from "../assets/premium-icon.png";
 // Feature icons
 import ActiveIcon from "../assets/active-icon.svg";
 import XIconSvg from "../assets/x-icon.svg";
-
-// Social media 
-import FacebookIcon from "../assets/social/facebook.png";
-import InstagramIcon from "../assets/social/instagram.png";
-import XIcon from "../assets/social/x.png";
-import TwitterIcon from "../assets/social/twitter.png";
-import LinkedinIcon from "../assets/social/linkedin.png";
-import SnapchatIcon from "../assets/social/snapchat.png";
+import { socialLinks } from "../data/socials";
+import { freeFeatures, premiumFeatures } from "../data/features";
 
 export default function PricingFooter() {
   return (
@@ -56,38 +50,16 @@ export default function PricingFooter() {
 
               {/* Right Side */}
               <ul className="flex flex-col gap-4 self-center sm:self-start">
-                <li className="flex items-center gap-3 text-[16px] font-medium text-[#323445]">
-                  <img
-                    src={ActiveIcon}
-                    alt="Active"
-                    className="w-5 h-5 "
-                  />
-                  <span>1 Active Job</span>
-                </li>
-                <li className="flex items-center gap-3 text-[16px] font-medium text-[#323445]">
-                  <img
-                    src={ActiveIcon}
-                    alt="Active"
-                    className="w-5 h-5"
-                  />
-                  <span>Basic List Placement</span>
-                </li>
-                <li className="flex items-center gap-3 text-[16px] font-medium text-[#808191]">
-                  <img
-                    src={XIconSvg}
-                    alt="Not Included"
-                    className="w-5 h-5"
-                  />
-                  <span>Unlimited Job Applicants</span>
-                </li>
-                <li className="flex items-center gap-3 text-[16px] font-medium text-[#808191]">
-                  <img
-                    src={XIconSvg}
-                    alt="Not Included"
-                    className="w-5 h-5"
-                  />
-                  <span>Invite Anyone to Apply to Your Jobs</span>
-                </li>
+                {freeFeatures.map((feature, i) => (
+                  <li key={i} className={`flex items-center gap-3 text-[16px] font-medium ${feature.isAvailable ? 'text-[#323445]' : 'text-[#808191]'}`}>
+                    <img
+                      src={feature.isAvailable ? ActiveIcon : XIconSvg}
+                      alt={feature.isAvailable ? "Active" : "Not Included"}
+                      className="w-5 h-5"
+                    />
+                    <span>{feature.text}</span>
+                  </li>
+                ))}
               </ul>
             </div>
 
@@ -124,38 +96,12 @@ export default function PricingFooter() {
 
               {/* Right Side */}
               <ul className="flex flex-col gap-4 self-center sm:self-start">
-                <li className="flex items-center gap-3 text-[16px] font-medium text-[#323445]">
-                  <img
-                    src={ActiveIcon}
-                    alt="Active"
-                    className="w-5 h-5"
-                  />
-                  <span>Unlimited Job Posts</span>
-                </li>
-                <li className="flex items-center gap-3 text-[16px] font-medium text-[#323445]">
-                  <img
-                    src={ActiveIcon}
-                    alt="Active"
-                    className="w-5 h-5"
-                  />
-                  <span>Instant Job Post Approval</span>
-                </li>
-                <li className="flex items-center gap-3 text-[16px] font-medium text-[#323445]">
-                  <img
-                    src={ActiveIcon}
-                    alt="Active"
-                    className="w-5 h-5"
-                  />
-                  <span>Premium List Placement</span>
-                </li>
-                <li className="flex items-center gap-3 text-[16px] font-medium text-[#323445]">
-                  <img
-                    src={ActiveIcon}
-                    alt="Active"
-                    className="w-5 h-5"
-                  />
-                  <span>Unlimited Job Applicants</span>
-                </li>
+                {premiumFeatures.map((feature, i) => (
+                  <li key={i} className="flex items-center gap-3 text-[16px] font-medium text-[#323445]">
+                    <img src={ActiveIcon} alt="Active" className="w-5 h-5" />
+                    <span>{feature.text}</span>
+                  </li>
+                ))}
               </ul>
             </div>
 
@@ -179,26 +125,11 @@ export default function PricingFooter() {
             />
           </div>
 
-          {/* Social Icons Loop */}
+          {/*  Social Loop */}
           <div className="flex items-center gap-3">
-            {[
-              { img: FacebookIcon, url: "#" },
-              { img: InstagramIcon, url: "#" },
-              { img: XIcon, url: "#" },
-              { img: TwitterIcon, url: "#" },
-              { img: LinkedinIcon, url: "#" },
-              { img: SnapchatIcon, url: "#" },
-            ].map((social, i) => (
-              <a
-                key={i}
-                href={social.url}
-                className="w-8 h-8 rounded-full bg-white/10 hover:bg-white/20 flex items-center justify-center transition-all active:scale-90 overflow-hidden p-1.5"
-              >
-                <img
-                  src={social.img}
-                  alt="social icon"
-                  className="w-full h-full object-contain brightness-0 invert"
-                />
+            {socialLinks.map((social, i) => (
+              <a key={i} href={social.url} className="w-8 h-8 rounded-full bg-white/10 hover:bg-white/20 flex items-center justify-center transition-all active:scale-90 overflow-hidden p-1.5">
+                <img src={social.img} alt="social icon" className="w-full h-full object-contain brightness-0 invert" />
               </a>
             ))}
           </div>
