@@ -5,6 +5,7 @@ import Navbar from "./sections/Navbar"
 import ReadyToWork from "./sections/.ReadyToWork.jsx"
 import ShowcaseTalents from "./sections/ShowcaseTalents"
 import CommonQuestions from "./sections/CommonQuestions.jsx"
+import PricingFooter from "./sections/PricingFooter.jsx"
 
 function App() {
 
@@ -17,6 +18,7 @@ function App() {
       <ShowcaseTalents/>
       <ReadyToWork/>
       <CommonQuestions/>
+      <PricingFooter/>
     </div>
   )
 }
