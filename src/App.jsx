@@ -1,3 +1,4 @@
+import FeeFreeForever from "./sections/FeeFreeForever"
 import GlobalReach from "./sections/GlobalReach"
 import Hero from "./sections/Hero"
 import Navbar from "./sections/Navbar"
@@ -9,6 +10,7 @@ function App() {
       <Navbar/>
       <Hero/>
       <GlobalReach/>
+      <FeeFreeForever/>
       
     </div>
   )
