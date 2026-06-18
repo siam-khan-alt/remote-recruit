@@ -6,7 +6,7 @@ import LogoImg from "../assets/logo.png";
 import LogoIcon from "../assets/rr-badge.svg";
 import PremiumIcon from "../assets/premium-icon.png";
 
-// Feature icons
+// Feature icon
 import ActiveIcon from "../assets/active-icon.svg";
 import XIconSvg from "../assets/x-icon.svg";
 import { socialLinks } from "../data/socials";
