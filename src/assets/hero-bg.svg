@@ -1,0 +1,23 @@
+<svg width="4320" height="2115" viewBox="0 0 4320 2115" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Background">
+<path id="Light Blue Background" fill-rule="evenodd" clip-rule="evenodd" d="M3868.63 1341C3972.08 1341 4217.38 1336.66 4317 1341V1.5H0V2103.36C126.206 2109.91 257.394 2113.5 393.362 2113.5C1953.16 2113.5 2521.53 1341 3868.63 1341Z" fill="url(#paint0_linear_1_316)"/>
+<path id="Dark Blue Background" d="M4320 1.5V1959.11C4320 1959.11 3786 1560.39 3102 1560.39C2418 1560.39 2056.5 2113.5 1264.5 2113.5C472.5 2113.5 0 1641.34 0 1641.34V1.5H4320Z" fill="url(#paint1_linear_1_316)"/>
+<mask id="mask0_1_316" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="-2" y="0" width="4324" height="2115">
+<path id="Dark Blue Background_2" d="M4320 1.5V1959.11C4320 1959.11 3786 1560.39 3102 1560.39C2418 1560.39 2056.5 2113.5 1264.5 2113.5C472.5 2113.5 0 1641.34 0 1641.34V1.5H4320Z" fill="white" stroke="white"/>
+</mask>
+<g mask="url(#mask0_1_316)">
+<circle id="Bottom Elipses" opacity="0.05" cx="2682" cy="1903.5" r="786" fill="white"/>
+<circle id="Top Elipses" opacity="0.02" cx="768" cy="-313.5" r="786" fill="white"/>
+</g>
+</g>
+<defs>
+<linearGradient id="paint0_linear_1_316" x1="-1999.3" y1="1314.99" x2="-158.148" y2="4770.67" gradientUnits="userSpaceOnUse">
+<stop stop-color="#52B4DA"/>
+<stop offset="1" stop-color="#1E3E85"/>
+</linearGradient>
+<linearGradient id="paint1_linear_1_316" x1="-1934.13" y1="1373.59" x2="-54.415" y2="4790.93" gradientUnits="userSpaceOnUse">
+<stop stop-color="#1E3E85"/>
+<stop offset="1" stop-color="#336DA6"/>
+</linearGradient>
+</defs>
+</svg>
