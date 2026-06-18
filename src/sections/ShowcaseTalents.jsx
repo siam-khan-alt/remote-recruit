@@ -18,8 +18,8 @@ export default function ShowcaseTalents() {
   ];
 
   return (
-    <section className="w-full bg-[#FFFFFF] my-16 md:mt-41 pt-0 md:pt-2 md:mb-36.5 flex items-center justify-center">
-      <div className="w-full max-w-266.75 min-h-auto md:h-113.5 mx-auto px-6 md:px-10 flex md:flex-row flex-col md:gap-10 lg:gap-[181.76px] items-center relative">
+    <section className="w-full bg-[#FFFFFF] my-16 md:mt-41 pt-0 md:pt-2 md:mb-[146px] flex items-center justify-center">
+      <div className="w-full max-w-[1067px] min-h-auto md:h-[454px] mx-auto px-6 md:px-10 flex md:flex-row flex-col md:gap-10 lg:gap-[181.76px] items-center relative">
         {/* Left Side */}
         <SectionHeader
           badgeText="Custom Profile"
@@ -28,9 +28,9 @@ export default function ShowcaseTalents() {
         />
 
         {/* Right Side */}
-        <div className="relative w-full max-w-88.75 md:w-88.75 h-112.75 md:h-full p-5 rounded-[34px] bg-white flex flex-col items-start shadow-[14px_41px_100px_0px_rgba(49,89,211,0.12)]">
+        <div className="relative w-full max-w-[355px] md:w-[355px] h-[451px] md:h-full p-5 rounded-[34px] bg-white flex flex-col items-start shadow-[14px_41px_100px_0px_rgba(49,89,211,0.12)]">
           {/* Floating Dot */}
-          <div className="absolute hidden md:flex -top-4 -left-4 w-5.5 h-5.5 z-10 animate-pulse">
+          <div className="absolute hidden md:flex -top-4 -left-4 w-[22px] h-[22px] z-10 animate-pulse">
             <img
               src={FloatingDot}
               alt="Decorative Dot"
@@ -67,7 +67,7 @@ export default function ShowcaseTalents() {
             {skillsList.map((skill, index) => (
               <span
                 key={index}
-                className="px-3 py-2.5 rounded-xl text-[12px] font-medium bg-linear-to-r from-[#5799EB]/10 to-[#9F74FB]/10"
+                className="px-3 py-[10px] rounded-xl text-[12px] font-medium bg-linear-to-r from-[#5799EB]/10 to-[#9F74FB]/10"
               >
                 <span className="bg-linear-to-r from-[#336DA6] to-[#1E3E85] bg-clip-text text-transparent">
                   {skill}
@@ -83,7 +83,7 @@ export default function ShowcaseTalents() {
             avatar={ClientAvatar}
             roleColor="text-[#1E3E85] text-[11px]"
             delay={0.3}
-            className="left-0 md:-left-12 bottom-36.5"
+            className="left-0 md:-left-12 bottom-[146px]"
             avatarBorder="border-3 border-[#F1C40F]"
           />
 
@@ -91,9 +91,9 @@ export default function ShowcaseTalents() {
           <motion.div
             animate={{ y: [0, -8, 0] }}
             transition={{ duration: 4, repeat: Infinity, ease: "easeInOut" }}
-            className="absolute hidden md:flex -right-7.5 top-37.5 w-20 h-20 md:w-22.75 md:h-22.75 z-30 drop-shadow-lg"
+            className="absolute hidden md:flex -right-[30px] top-[150px] w-20 h-20 md:w-[91px] md:h-[91px] z-30 drop-shadow-lg"
           >
-            <div className="w-full h-full rounded-full bg-linear-to-br from-[#52B4DA] to-[#1E3E85] p-1.5 flex items-center justify-center">
+            <div className="w-full h-full rounded-full bg-linear-to-br from-[#52B4DA] to-[#1E3E85] p-[6px] flex items-center justify-center">
               <img
                 src={ClientAvatar}
                 alt="Client Avatar Badge"

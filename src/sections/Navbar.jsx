@@ -19,7 +19,7 @@ export default function Navbar() {
           scrolled ? "bg-[#1E3E85] backdrop-blur-md shadow-lg" : "bg-transparent"
         }`}
       >
-        <nav className="w-full max-w-360 mx-auto px-6 md:px-12.5 py-5 md:py-7.25 flex items-center justify-between">
+        <nav className="w-full max-w-360 mx-auto px-6 md:px-[50px] py-5 md:py-[29px] flex items-center justify-between">
           
           <a href="/" className="flex items-center select-none active:scale-95 transition-transform">
             <img 
@@ -41,7 +41,7 @@ export default function Navbar() {
             </a>
             <a
               href="/signup"
-              className="px-4 py-2.5 text-sm font-bold text-white bg-[#4DA8CC] rounded-2xl hover:bg-[#2f9eca] "
+              className="px-4 py-[10px] text-sm font-bold text-white bg-[#4DA8CC] rounded-2xl hover:bg-[#2f9eca] "
             >
               Sign Up
             </a>
@@ -59,7 +59,7 @@ export default function Navbar() {
       </header>
 
       <div
-        className={`fixed inset-x-0 top-19 z-40 md:hidden bg-[#1E3E85] border-t border-white/10 transition-all duration-300 ease-in-out overflow-hidden ${
+        className={`fixed inset-x-0 top-[72px] z-40 md:hidden bg-[#1E3E85] border-t border-white/10 transition-all duration-300 ease-in-out overflow-hidden ${
           mobileOpen ? "max-h-50 opacity-100" : "max-h-0 opacity-0 pointer-events-none"
         }`}
       >

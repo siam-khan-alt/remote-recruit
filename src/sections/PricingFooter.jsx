@@ -29,7 +29,7 @@ export default function PricingFooter() {
       {/* Main Container */}
       <div className="w-full max-w-285 mx-auto px-6 relative z-10 grow flex flex-col items-center">
         {/* Heading */}
-        <h2 className="text-[#11142D] font-semibold text-3xl md:text-[40px] text-center mb-12.5 tracking-tight">
+        <h2 className="text-[#11142D] font-semibold text-3xl md:text-[40px] text-center mb-[50px] tracking-tight">
           Help Is One Click Away
         </h2>
 
@@ -42,7 +42,7 @@ export default function PricingFooter() {
           >
             <div className="flex flex-col sm:flex-row items-start gap-6">
               {/* Left Side */}
-              <div className="w-full sm:w-37.5 h-40 bg-[#ECF2FF] rounded-2xl flex flex-col items-center justify-center">
+              <div className="w-full sm:w-[150px] h-40 bg-[#ECF2FF] rounded-2xl flex flex-col items-center justify-center">
                 <span className="text-[#52B4DA] font-semibold text-[32px]">Free</span>
                 <span className="text-[#11142D]/39 text-[20px] font-medium mt-1">
                   Basic
@@ -78,7 +78,7 @@ export default function PricingFooter() {
           >
             <div className="flex flex-col sm:flex-row items-start gap-6 relative w-full">
               {/* Left Side */}
-              <div className="w-full sm:w-37.5 h-40 bg-[#EFF4FF] rounded-2xl flex flex-col items-center justify-center relative pt-4">
+              <div className="w-full sm:w-[150px] h-40 bg-[#EFF4FF] rounded-2xl flex flex-col items-center justify-center relative pt-4">
                 {/* Float Badge */}
                 <div className="absolute top-2 left-2 right-2 bg-[#E2F5FC] text-[#4DA8CC] font-bold text-[10px] px-2 py-1 rounded-full flex items-center justify-center gap-1 shadow-sm">
                   <img
@@ -109,7 +109,7 @@ export default function PricingFooter() {
             </div>
 
             {/* Bottom Row */}
-            <button className="w-full py-4.5 bg-linear-to-br from-[#52B4DA] to-[#1E3E85] hover:opacity-95 text-white font-bold text-base rounded-2xl shadow-[0_6px_20px_rgba(30,62,133,0.25)] transition-all cursor-pointer select-none">
+            <button className="w-full py-[18px] bg-linear-to-br from-[#52B4DA] to-[#1E3E85] hover:opacity-95 text-white font-bold text-base rounded-2xl shadow-[0_6px_20px_rgba(30,62,133,0.25)] transition-all cursor-pointer select-none">
               Get Started
             </button>
           </motion.div>
@@ -132,7 +132,7 @@ export default function PricingFooter() {
           {/*  Social Loop */}
           <div className="flex items-center gap-3">
             {socialLinks.map((social, i) => (
-              <a key={i} href={social.url} className="w-8 h-8 rounded-full bg-white/10 hover:bg-white/20 flex items-center justify-center transition-all active:scale-90 overflow-hidden p-1.5">
+              <a key={i} href={social.url} className="w-8 h-8 rounded-full bg-white/10 hover:bg-white/20 flex items-center justify-center transition-all active:scale-90 overflow-hidden p-[6px]">
                 <img src={social.img} alt="social icon" className="w-full h-full object-contain brightness-0 invert" loading="lazy" />
               </a>
             ))}

@@ -5,7 +5,7 @@ export default function SectionHeader({ badgeText, title, description, maxWidth 
       style={{ maxWidth: maxWidth }}
     >
       {/* badge */}
-      <span className="px-5 py-2.5 rounded-full bg-[#C2EEFF] text-[#11142D] font-semibold text-xs">
+      <span className="px-5 py-[10px] rounded-full bg-[#C2EEFF] text-[#11142D] font-semibold text-xs">
         {badgeText}
       </span>
 

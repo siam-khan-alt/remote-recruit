@@ -5,7 +5,7 @@ import { ArrowRight } from "lucide-react";
 
 export default function ReadyToWork() {
   return (
-    <section className="w-full h-152.5 bg-[#EDF5FA] flex items-end justify-center overflow-hidden relative isolate">
+    <section className="w-full h-[610px] bg-[#EDF5FA] flex items-end justify-center overflow-hidden relative isolate">
       
       <div className="absolute inset-0 w-full h-full pointer-events-none select-none z-1">
         <img 
@@ -25,7 +25,7 @@ export default function ReadyToWork() {
           <motion.div
             animate={{ y: [0, -12, 0], scale: [1, 1.05, 1] }}
             transition={{ duration: 5, repeat: Infinity, ease: "easeInOut" }}
-            className="absolute -top-7.5 left-1/3 w-10 h-10 rounded-full bg-linear-to-br from-[#FFD02B] to-[#F1C40F] shadow-[0_10px_25px_rgba(241,196,15,0.4)] z-20 hidden md:block pointer-events-none"
+            className="absolute -top-[30px] left-1/3 w-10 h-10 rounded-full bg-linear-to-br from-[#FFD02B] to-[#F1C40F] shadow-[0_10px_25px_rgba(241,196,15,0.4)] z-20 hidden md:block pointer-events-none"
           />
 
           <div className="w-full max-w-160 rounded-tr-3xl overflow-hidden shadow-[25px_0_80px_rgba(13,27,62,0.06)] border-t border-r border-[#E2E8F0]/30 md:mb-0 -mb-6">
@@ -49,14 +49,14 @@ export default function ReadyToWork() {
             Help is only a few clicks away!
           </h2>
 
-          <p className="text-[#767784] text-base md:text-lg mb-8.5 max-w-82.75 ">
+          <p className="text-[#767784] text-base md:text-lg mb-[34px] max-w-[331px]">
             Click Below to get set up super quickly and find help now!
           </p>
 
           <motion.button
             whileHover={{ scale: 1.03 }}
             whileTap={{ scale: 0.98 }}
-            className="flex items-center gap-3.5 bg-[#EBF5FA] text-[#1E3E85] font-semibold text-[15px] pl-2.5 pr-6 py-2.5 rounded-full shadow-[0_4px_15px_rgba(82,180,218,0.06)] transition-all cursor-pointer group"
+            className="flex items-center gap-[14px] bg-[#EBF5FA] text-[#1E3E85] font-semibold text-[15px] pl-[10px] pr-6 py-[10px] rounded-full shadow-[0_4px_15px_rgba(82,180,218,0.06)] transition-all cursor-pointer group"
           >
             <div className="w-10 h-10 rounded-full bg-linear-to-br from-[#52B4DA] to-[#1E3E85] flex items-center justify-center transition-transform group-hover:translate-x-1 shadow-[0_2px_8px_rgba(82,180,218,0.3)]">
               <ArrowRight className="w-5 h-5 text-white stroke-[2px]" />
@@ -67,7 +67,7 @@ export default function ReadyToWork() {
           <motion.div
             animate={{ y: [0, 12, 0] }}
             transition={{ duration: 4, repeat: Infinity, ease: "easeInOut", delay: 1 }}
-            className="absolute bottom-12.25 right-12 w-7 h-7 rounded-full bg-linear-to-br from-[#5799EB] to-[#9F74FB] shadow-[0_8px_20px_rgba(87,153,235,0.3)] z-20 hidden lg:block pointer-events-none"
+            className="absolute bottom-[49px] right-12 w-7 h-7 rounded-full bg-linear-to-br from-[#5799EB] to-[#9F74FB] shadow-[0_8px_20px_rgba(87,153,235,0.3)] z-20 hidden lg:block pointer-events-none"
           />
 
         </div>

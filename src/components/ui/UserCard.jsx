@@ -20,7 +20,7 @@ export default function UserCard({
       className={`absolute w-75 md:w-88 bg-white p-3 pr-8 rounded-full shadow-[14px_13px_20px_0px_rgba(135,129,245,0.11)] flex items-center gap-3 border border-[#F8FAFC] z-20 ${className}`}
     >
       {/* avatar */}
-      <div className={`w-13.25 h-13.25 rounded-full overflow-hidden flex items-center justify-center shrink-0 ${avatarBg} ${avatarBorder} ${avatarClass}`}>
+      <div className={`w-[53px] h-[53px] rounded-full overflow-hidden flex items-center justify-center shrink-0 ${avatarBg} ${avatarBorder} ${avatarClass}`}>
         <img
           src={avatar}
           alt={`${name}'s Avatar`}

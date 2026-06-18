@@ -4,7 +4,7 @@ import { faqData } from "../data/faqs";
 export default function CommonQuestions() {
 
   return (
-    <section className="w-full bg-white py-20 md:pt-37 md:pb- flex justify-center items-center">
+    <section className="w-full bg-white py-20 md:pt-37 md:pb-[213px] flex justify-center items-center">
       <div className="w-full max-w-260 mx-auto px-6 md:px-12 lg:px-0 flex flex-col items-start">
         
         {/* title */}
@@ -48,7 +48,7 @@ export default function CommonQuestions() {
           whileHover={{ scale: 1.03, backgroundColor: "#EBF5FA" }}
           whileTap={{ scale: 0.98 }}
           transition={{ duration: 0.3 }}
-          className="px-5 md:px-7.25 py-3 md:py-5.5 border-2 border-[#53B4DA]/69 text-[#1E3E85] font-semibold text-[16px] rounded-2xl bg-transparent transition-colors shadow-sm cursor-pointer"
+          className="px-5 md:px-[29px] py-3 md:py-[22px] border-2 border-[#53B4DA]/69 text-[#1E3E85] font-semibold text-[16px] rounded-2xl bg-transparent transition-colors shadow-sm cursor-pointer"
         >
           More Questions
         </motion.button>
