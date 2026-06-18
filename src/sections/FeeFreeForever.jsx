@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 import PaypalIcon from "../assets/paypal-icon.png";
 import ActiveIcon from "../assets/active-icon.svg";
 import FloatingDot from "../assets/blue-dot.png";
-import RemoteRecruitBadge from "../assets/rr-badge.png";
+import RemoteRecruitBadge from "../assets/rr-badge.svg";
 import SectionHeader from "../components/ui/SectionHeader";
 import UserCard from "../components/ui/UserCard";
 
@@ -19,7 +19,7 @@ export default function FeeFreeForever() {
 
   return (
     <section className="w-full bg-[#FFFFFF] pt-0 md:pt-3  flex items-center justify-center ">
-      <div className="w-full max-w-266.75 min-h-auto md:h-113.5 mx-auto px-6 md:px-10 flex md:flex-row-reverse flex-col md:gap-10 lg:gap-29 items-center relative">
+      <div className="w-full max-w-266.75 min-h-auto md:h-113.5 mx-auto px-6 md:px-10 flex md:flex-row-reverse flex-col md:gap-10 lg:gap-36.25 items-center relative">
         {/* right */}
         <SectionHeader
           badgeText="Actually Fee Free"
@@ -75,7 +75,8 @@ export default function FeeFreeForever() {
             avatar={PaypalIcon}
             roleColor="text-[#A4A7B7] !text-[11px] font-semibold"
             delay={0.2}
-            className="left-0 md:-left-12 bottom-8.25 md:bottom-12"
+            className="left-0 md:-left-12 bottom-7 md:bottom-12 "
+            avatarClass="py-[17px] px-[16px] !h-[61px] !w-[61px]"
             avatarBg="bg-[#E8F0FE]"
             avatarBorder="border-0"
           />
@@ -86,11 +87,13 @@ export default function FeeFreeForever() {
             transition={{ duration: 4, repeat: Infinity, ease: "easeInOut" }}
             className="absolute hidden md:flex -right-12.25 top-37.5 w-20 h-20 md:w-22.75 md:h-22.75 z-30 drop-shadow-lg"
           >
-            <img
-              src={RemoteRecruitBadge}
-              alt="RemoteRecruit Floating Badge"
-              className="w-full h-full object-contain"
-            />
+            <div className="w-full h-full rounded-full bg-linear-to-br from-[#52B4DA] to-[#1E3E85] p-2 flex items-center justify-center">
+              <img
+                src={RemoteRecruitBadge}
+                alt="RemoteRecruit Floating Badge"
+                className="w-12 h-10 object-cover rounded-full"
+              />
+            </div>
           </motion.div>
         </div>
       </div>
