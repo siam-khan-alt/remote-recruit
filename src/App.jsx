@@ -2,6 +2,7 @@ import FeeFreeForever from "./sections/FeeFreeForever"
 import GlobalReach from "./sections/GlobalReach"
 import Hero from "./sections/Hero"
 import Navbar from "./sections/Navbar"
+import ReadyToWork from "./sections/.ReadyToWork.jsx"
 import ShowcaseTalents from "./sections/ShowcaseTalents"
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
       <GlobalReach/>
       <FeeFreeForever/>
       <ShowcaseTalents/>
+      <ReadyToWork/>
       
     </div>
   )
