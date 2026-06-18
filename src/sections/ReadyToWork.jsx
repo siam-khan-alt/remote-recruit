@@ -12,6 +12,7 @@ export default function ReadyToWork() {
           src={ReadyToWorkBg} 
           alt="" 
           draggable="false"
+          loading="lazy"
           className="w-full h-full object-cover" 
         />
       </div>
@@ -31,6 +32,7 @@ export default function ReadyToWork() {
             <img
               src={DashboardLookup}
               alt="RemoteRecruit Job Board Dashboard"
+              loading="lazy"
               className="w-full h-full object-cover block"
             />
           </div>

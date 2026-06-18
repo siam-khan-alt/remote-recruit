@@ -26,6 +26,7 @@ export default function GlobalReach() {
               src={FloatingDot}
               alt="Decorative Dot"
               className="w-full h-full object-contain"
+              loading="lazy"
             />
           </div>
 
@@ -35,6 +36,7 @@ export default function GlobalReach() {
               src={DashboardMockup}
               alt="Platform Dashboard Mockup"
               className="w-full h-full object-cover"
+              loading="lazy"
             />
           </div>
           {/* Python Developer Card */}
@@ -67,6 +69,7 @@ export default function GlobalReach() {
               <img
                 src={RemoteRecruitBadge}
                 alt="RemoteRecruit Floating Badge"
+                loading="lazy"
                 className="w-12 h-10 object-cover rounded-full"
               />
             </div>

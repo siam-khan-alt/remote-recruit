@@ -34,6 +34,7 @@ export default function ShowcaseTalents() {
             <img
               src={FloatingDot}
               alt="Decorative Dot"
+              loading="lazy"
               className="w-full h-full object-contain"
             />
           </div>
@@ -42,6 +43,7 @@ export default function ShowcaseTalents() {
           <div className="relative group h-auto max-h-52 w-full rounded-2xl shadow-[0_20px_50px_rgba(13,27,62,0.04)] overflow-hidden border border-[#F1F5F9] mb-6 cursor-pointer">
             <img
               src={ProfileMockup}
+              loading="lazy"
               alt="Profile Talents Video Mockup"
               className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-102"
             />
@@ -54,6 +56,7 @@ export default function ShowcaseTalents() {
               <img
                 src={VideoPlayIcon}
                 alt="Play Video"
+                loading="lazy"
                 className="w-6 h-6 object-contain drop-shadow-md"
               />
             </motion.div>
@@ -94,6 +97,7 @@ export default function ShowcaseTalents() {
               <img
                 src={ClientAvatar}
                 alt="Client Avatar Badge"
+                loading="lazy"
                 className="w-full h-full object-cover rounded-full"
               />
             </div>

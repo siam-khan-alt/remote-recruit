@@ -25,6 +25,7 @@ export default function Navbar() {
             <img 
               src={LogoImg} 
               alt="RemoteRecruit Logo" 
+              loading="lazy"
               className="h-8 md:h-10 w-auto object-contain" 
             />
           </a>

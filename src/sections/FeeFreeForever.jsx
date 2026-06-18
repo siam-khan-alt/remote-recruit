@@ -35,7 +35,7 @@ export default function FeeFreeForever() {
               src={FloatingDot}
               alt="Decorative Dot"
               className="w-full h-full object-contain"
-              
+              loading="lazy"
             />
           </div>
 
@@ -59,6 +59,7 @@ export default function FeeFreeForever() {
                   <img
                     src={ActiveIcon}
                     alt="Active Mark"
+                    loading="lazy"
                     className="w-4 h-4 shrink-0 object-contain"
                   />
                   <span className="text-[14px] font-medium text-[#323445]/90">
@@ -92,6 +93,7 @@ export default function FeeFreeForever() {
               <img
                 src={RemoteRecruitBadge}
                 alt="RemoteRecruit Floating Badge"
+                loading="lazy"
                 className="w-12 h-10 object-cover rounded-full"
               />
             </div>

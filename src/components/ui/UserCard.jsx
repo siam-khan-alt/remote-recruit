@@ -25,6 +25,7 @@ export default function UserCard({
           src={avatar}
           alt={`${name}'s Avatar`}
           className="w-full h-full object-contain"
+          loading="lazy"
         />
       </div>
 

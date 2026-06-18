@@ -9,6 +9,7 @@ export default function Hero() {
         <img 
           src={HeroBg} 
           alt="Hero Background Architecture"
+          loading="lazy"
           className="w-full h-full object-cover object-bottom"
         />
       </div>

@@ -20,6 +20,7 @@ export default function PricingFooter() {
         <img
           src={FooterBg}
           alt="Footer Wave"
+          loading="lazy"
           draggable="false"
           className="w-full h-full object-cover object-top"
         />
@@ -56,6 +57,7 @@ export default function PricingFooter() {
                       src={feature.isAvailable ? ActiveIcon : XIconSvg}
                       alt={feature.isAvailable ? "Active" : "Not Included"}
                       className="w-5 h-5"
+                      loading="lazy"
                     />
                     <span>{feature.text}</span>
                   </li>
@@ -83,6 +85,7 @@ export default function PricingFooter() {
                     src={PremiumIcon}
                     alt="Premium"
                     className="w-3 h-3 object-contain"
+                    loading="lazy"
                   />
                   <span>Premium</span>
                 </div>
@@ -98,7 +101,7 @@ export default function PricingFooter() {
               <ul className="flex flex-col gap-4 self-center sm:self-start">
                 {premiumFeatures.map((feature, i) => (
                   <li key={i} className="flex items-center gap-3 text-[16px] font-medium text-[#323445]">
-                    <img src={ActiveIcon} alt="Active" className="w-5 h-5" />
+                    <img src={ActiveIcon} alt="Active" className="w-5 h-5" loading="lazy" />
                     <span>{feature.text}</span>
                   </li>
                 ))}
@@ -122,6 +125,7 @@ export default function PricingFooter() {
               src={LogoImg}
               alt="RemoteRecruit Logo"
               className="h-10 w-auto object-contain"
+              loading="lazy"
             />
           </div>
 
@@ -129,7 +133,7 @@ export default function PricingFooter() {
           <div className="flex items-center gap-3">
             {socialLinks.map((social, i) => (
               <a key={i} href={social.url} className="w-8 h-8 rounded-full bg-white/10 hover:bg-white/20 flex items-center justify-center transition-all active:scale-90 overflow-hidden p-1.5">
-                <img src={social.img} alt="social icon" className="w-full h-full object-contain brightness-0 invert" />
+                <img src={social.img} alt="social icon" className="w-full h-full object-contain brightness-0 invert" loading="lazy" />
               </a>
             ))}
           </div>
@@ -142,6 +146,7 @@ export default function PricingFooter() {
               src={LogoIcon}
               alt="RemoteRecruit Icon"
               className="h-5 w-auto object-contain"
+              loading="lazy"
             />
           </div>
         </div>
